@@ -2,8 +2,8 @@ import unittest
 from app import addiction, soustraction, division, multiplication
 
 """
-Ce module contient des tests unitaires pour vérifier le bon fonctionnement des fonctions 
-arithmétiques définies dans le module 'app'. Il teste l'addition, la soustraction, 
+Ce module contient des tests unitaires pour vérifier le bon fonctionnement des fonctions
+arithmétiques définies dans le module 'app'. Il teste l'addition, la soustraction,
 la multiplication et la division.
 """
 
@@ -37,4 +37,3 @@ class TestCalculator(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
