@@ -1,5 +1,11 @@
 # calculator.py
 
+"""
+Ce module contient des fonctions de base pour effectuer des opérations arithmétiques simples
+comme l'addition, la soustraction, la multiplication et la division. Il fournit également un 
+exemple d'utilisation avec des affichages.
+"""
+
 def addiction(a, b):
     """Additionne deux nombres."""
     return a + b
