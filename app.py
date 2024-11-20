@@ -17,10 +17,11 @@ def division(a, b):
     if b == 0:
         raise ValueError("La division par zéro n'est pas autorisée.")
     return a / b
-"""
+
+# Exemple d'utilisation (démonstration)
 print("Bienvenue dans le calculateur !")
 print("Exemple d'utilisation :")
 print(f"Addition : 4 + 5 = {addiction(4, 5)}")
 print(f"Soustraction : 9 - 2 = {soustraction(9, 2)}")
 print(f"Multiplication : 3 * 3 = {multiplication(3, 3)}")
-print(f"Division : 8 / 2 = {division(8, 2)}")"""
+print(f"Division : 8 / 2 = {division(8, 2)}")
